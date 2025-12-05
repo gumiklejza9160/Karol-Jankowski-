@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ćwiczenie Selektorów CSS - Zadanie</title>
+    <link rel="stylesheet" href="zadanie.css">
+</head>
+<body>
+  <header>
+    <h1>Naglowek1</h1>
+    <p class="opis">Paragraf opis</p>
+  </header>
+  <main>
+    <h2>h2 w main
+    
+    </h2>
+    <p>Paragraf w sekcji glownej</p>
+    <p class="wytluszczony">wytluszczony</p>
+    <p class="szczegoly">Paragraf szczegoly</p>
+    <section class="szczegoly"><h2>H2 w section</h2><p class="wytluszczony">paragraf szczegoly</p><span class="wytluszczony ramka">span albo troche dluzszy tekst</span>tekst z wyroznionym fragmentem w srodku zdania</section>
+    <section id="zdjecia"><h2>niger</h2><p>Negero</p><ul>
+      <li>Retard</li>
+      <p class="wytluszczony">Elka</p>
+      <li class="wyroznienie">Larry</li>
+
+
+    </ul></section>
+    <section class="raport">
+      <h2 class="raport"> w raport w speed</h2>
+      <table>
+        <tr><td><h2>Cos tam</h2></td><td><h2>cos tam</h2>></tr>
+        <tr><td><p>paragraf1</p></td><td>cos tam</td></tr>
+      </table>
+    </section>
+    <section id="formularz">
+      <h2 class="formularz">formularz</h2>
+      <div>
+        <h3>W DIWIE</h3>
+        <p class="wytluszczony">w diwie paragraf</p>
+      </div>
+      <p>poza diwem paragraf</p>
+
+    </section>
+    
+    <aside>
+      
+      <h2 class="uwaga">kolejny naglowek</h2>
+      <p class="uwaga">paragraf</p>
+      <ul>
+        <li>lista</li>
+      </ul>
+    </aside>
+    <footer> <p>paragraf</p><p class="prawa">alona</p></footer>
+  </main>
+    <!-- 
+    ZADANIE: Utwórz strukturę HTML, która pasuje do selektorów w pliku zadanie.css
+    
+    WSKAZÓWKI:
+    - Przeczytaj uważnie plik zadanie.css - selektory podpowiadają, jakich elementów użyć
+    - Zwróć uwagę na różnicę między:
+      * main h2 (h2 gdziekolwiek wewnątrz main) 
+      * main > h2 (h2 bezpośrednio w main)
+    - Gdy widzisz .class1.class2, użyj: class="class1 class2"
+    - Użyj odpowiednich znaczników semantycznych HTML5
+    
+    STRUKTURA DO UTWORZENIA:
+    1. <header> z nagłówkiem h1 i paragrafem z klasą "opis"
+    2. <main> z:
+       - nagłówkiem h2 (bezpośrednio w main)
+       - paragrafami (zwykłym i z klasą "wytluszczony")
+       - <section class="szczegoly"> z nagłówkiem h2, paragrafami (w tym z klasą "wytluszczony", 
+         ze span wewnątrz, i z klasami "wytluszczony" oraz "ramka")
+       - <section id="zdjecia"> z nagłówkiem h2, paragrafem i listą ul>li 
+         (jeden element li z klasą "wyroznienie")
+       - <section class="raport"> z nagłówkiem h2, paragrafem i tabelą (table>tr>th,td)
+       - <section id="formularz"> z nagłówkiem h2 (bezpośrednio w section), 
+         oraz div>h3 i paragrafem
+    3. <aside> z nagłówkiem h2, paragrafem z klasą "uwaga" i listą ul>li
+    4. <footer> z paragrafem i paragrafem z klasą "prawa"
+    
+    TREŚCI:
+    Możesz użyć dowolnych tekstów - ważna jest struktura HTML i odpowiednie klasy/ID
+    -->
+    
+    <!-- Tutaj wpisz swoje rozwiązanie -->
+    
+</body>
+</html>

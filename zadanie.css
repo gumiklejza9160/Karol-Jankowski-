@@ -1,0 +1,155 @@
+/* Gotowe style CSS - Zadanie 2 */
+/* Twoim zadaniem jest stworzyć HTML, który pasuje do tych selektorów */
+
+/* Selektor elementu */
+body {
+    background-color: #f0f0f0;
+    color: #333;
+    font-size: 16px;
+    padding: 20px;
+    margin: 0;
+}
+
+/* Selektor klasy */
+.opis {
+    color: #0066cc;
+    font-size: 18px;
+}
+
+/* Selektor potomka (wszystkie h2 wewnątrz main) */
+main h2 {
+    color: #cc0000;
+    border: 2px solid #cc0000;
+    padding: 10px;
+}
+
+/* Selektor dziecka (bezpośrednie h2 wewnątrz main) */
+main > h2 {
+    background-color: #ffcccc;
+}
+
+/* Selektor klasy dla paragrafów */
+.wytluszczony {
+    font-size: 20px;
+    color: #ff6600;
+}
+
+/* Selektor elementu z klasą */
+p.wytluszczony {
+    border: 3px solid #ff6600;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Selektor ID - potomek */
+#zdjecia h2 {
+    color: #009900;
+    background-color: #ccffcc;
+}
+
+/* Selektor ID - dziecko */
+#formularz > h2 {
+    color: #9900cc;
+    border: 2px solid #9900cc;
+}
+
+/* Paragraf wewnątrz elementu z klasą */
+.szczegoly p {
+    background-color: #e6f2ff;
+    padding: 5px;
+    margin: 5px;
+}
+
+/* Element z dwiema klasami */
+.wytluszczony.ramka {
+    border: 4px solid #000;
+    background-color: #ffff99;
+}
+
+/* Selektor span */
+span {
+    background-color: #ffcc00;
+    padding: 2px;
+    color: #000;
+}
+
+/* Selektor dla listy */
+ul {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+}
+
+/* Element listy z klasą */
+li.wyroznienie {
+    color: #cc00cc;
+    font-size: 22px;
+}
+
+/* Tabela */
+table {
+    border: 2px solid #666;
+    padding: 10px;
+    margin: 15px;
+    background-color: #fff;
+}
+
+/* Komórki tabeli */
+th {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    background-color: #f9f9f9;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+/* Sekcja raport */
+.raport {
+    background-color: #fff;
+    padding: 15px;
+    margin: 20px;
+    border: 1px solid #ccc;
+}
+
+/* Header */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    margin: -20px -20px 20px -20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+/* Aside */
+aside {
+    background-color: #fff3cd;
+    padding: 15px;
+    margin: 20px;
+}
+
+.uwaga {
+    color: #856404;
+    background-color: #fff9e6;
+    padding: 10px;
+    border: 1px solid #ffc107;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    margin: 20px -20px -20px -20px;
+}
+
+.prawa {
+    font-size: 14px;
+    color: #ccc;
+}
